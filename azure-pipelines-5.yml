@@ -7,10 +7,10 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: 'X'
+    ConnectedServiceName: 'x'
     subscriptionName: '73602585-adf8-4e8e-8bab-7b59ff6903cf'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'sdfasd'
+    resourceGroupName: 'dfdfffff'
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
